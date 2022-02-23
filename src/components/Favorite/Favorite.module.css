@@ -1,0 +1,11 @@
+.favorites_outer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.favorite_block {
+    border-radius: 2px;
+    padding: 20px 30px;
+    border: 1px solid silver;
+}

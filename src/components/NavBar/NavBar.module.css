@@ -1,0 +1,29 @@
+.nav_bar {
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 4px -2px #000;
+}
+.nav_bar ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.logo {
+
+}
+
+.nav_bar ul li + li {
+    margin-left: 20px;
+
+}
+
+.nav_bar ul li a {
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+.active_link {
+    border-bottom: 1px solid #000;
+}

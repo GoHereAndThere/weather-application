@@ -1,0 +1,41 @@
+
+.search_block {
+    margin: 20px 0;
+  }
+  
+  .main_info {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+  }
+  
+  .search_block input {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid silver;
+    padding: 2px 5px;
+    border-radius: 4px;
+    width: 250px;
+  }
+  
+  .weather_block {
+    background-color: #f6f6f6;
+    border: 1px solid silver;
+    padding: 30px 20px;
+    border-radius: 4px;
+  }
+  .current_weather {
+    margin: 40px 0 60px;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .weather_daily {
+    display: flex;
+    justify-content: space-between;
+  }
+  .daily_container {
+    border-radius: 2px;
+    padding: 20px 30px;
+    border: 1px solid silver;
+  }
